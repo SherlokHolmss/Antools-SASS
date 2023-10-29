@@ -1,11 +1,11 @@
-:root {
+/* :root {
     --color-background-page: #1E252B;
     --color-grey: #FFFFFFC7;
     --color-white: #FFFFFFE5;
     --color-orange: #FF6E30;
     --color-orange-desc: #FFA537;
     --color-black-button: #1E252B;
-}
+} */
 
 .container {
     width: 1220px;
@@ -15,27 +15,19 @@
 body {
     font-family: "Poppins";
     background-color: #1E252B;
-    color: var(--color-grey);
+    color: #FFFFFFC7;
 
 }
-
-
-
 /* header */
-.header-logo {
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 33px;
-    letter-spacing: 0em;
-    text-align: left;
-
+.header {
+    padding: 34px;
 }
-
-.header-list-link {
+.header-button-first {
+    color: #FFFFFFC7;
+    background-color: #1E252B;
     font-family: Poppins;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -43,29 +35,50 @@ body {
 }
 
 .header-button {
+    background-color: #FF6E30;
+    color:  #FFFFFFE5;
     width: 118px;
     height: 48px;
     top: 26px;
     left: 1214px;
     border-radius: 8px;
-
-}
-
-.header-button-first {
+    text-align: center;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    width: 44px;
-    height: 24px;
-    top: 38px;
-    left: 1129px;
-    opacity: 0.78px;
-
 
 }
+
+
+
+.header-list {
+    opacity: 0.78px;
+    color: #FFFFFFC7;
+}
+
+.header-logo {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-list-item {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* main */
+
+/* section-hero */
 
 .section-hero-title {
     font-family: Poppins;
@@ -74,11 +87,32 @@ body {
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
-    width: 487px;
-    height: 60px;
-    top: 348px;
+}
+.section-hero-input {
+    width: 337px;
+    height: 64px;
+    top: 468px;
     left: 108px;
+    border-radius: 15px 15px 15px 15px;
+    border: 1.5px;
+    background-color: #283036;
+}
 
+.section-hero-button {
+    width: 130px;
+    height: 48px;
+    top: 476px;
+    left: 464.19px;
+    border-radius: 8px;
+    color: #FFFFFFE5;
+    background-color: #FF6E30;
+}
+
+.section-hero-wrap {
+    width: 600px;
+    height: 354px;
+    top: 178px;
+    left: 108px;
 }
 
 .section-hero-description {
@@ -88,25 +122,48 @@ body {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    width: 190px;
-    height: 21px;
-    top: 489px;
-    left: 163.18px;
 
 }
-
-.section-hero-button {
+.section-hero-list-item {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    width: 130.43px;
-    height: 48px;
-    top: 476px;
-    left: 464.19px;
-    border-radius: 8px;
+
+}
+/* popular-list */
+.section-popular-tools {
+    padding-top: 200px;
+}
+
+.section-popular-tools-wrap {
+    width: 455px;
+    height: 147px;
+    top: 900px;
+    left: 493px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.section-popular-tools-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.section-popular-tools-description {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
@@ -117,24 +174,25 @@ body {
     line-height: 62px;
     letter-spacing: 0em;
     text-align: center;
-    width: 455px;
-    height: 62px;
-    top: 900px;
-    left: 493px;
 
 }
 
 .section-popular-tools-description {
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 30px;
     letter-spacing: 0em;
-    text-align: left;
-    width: 76px;
-    height: 36px;
-    top: 1190px;
-    left: 235px;
+    text-align: center;
+
+}
+
+.section-popular-tools-list-item {
+    width: 392px;
+    height: 294px;
+    top: 1157px;
+    left: 108px;
+    border-radius: 15px;
 
 }
 
@@ -146,9 +204,243 @@ body {
     letter-spacing: 0em;
     text-align: left;
 
-    width: 76px;
-    height: 36px;
-    top: 1190px;
-    left: 235px;
+}
+
+.popular-tools-list-item-decription-money {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
+
+.popular-tools-list-item-decription {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.popular-tools-list-item-button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-popular-tools-button {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* brands */
+.brand-title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* newcomer-tools-section */
+.newcomer-tools-section-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.newcomer-tools-section-decription {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.newcomer-tools-section-button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.newcomer-tools-section-list-item-title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.newcomer-tools-section-list-item-decription {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.newcomer-tools-section-item-button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* section-biography */
+.section-biography-title {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    text-align: left;
+
+}
+
+.section-biography-pre-decription {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.section-biography-decription {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    text-align: left;
+
+}
+/* section-join-us */
+.section-join-us-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.section-join-us-decription {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.section-join-us-input {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.section-join-us-button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* footer */
+
+.footer-decription-list-item-logo {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-decription-list-item-title {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-list-item-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-list-decription {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* span */
+span {
+    color: #FF6E30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
