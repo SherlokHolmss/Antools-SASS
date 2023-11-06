@@ -502,23 +502,18 @@ body {
 
 
 /* section-biography */
-.section-biography-title {
-    font-family: Poppins;
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 39px;
-    letter-spacing: 0.015em;
-    text-align: left;
-
+.section-biography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    margin-bottom: 357px;
 }
 
-.section-biography-pre-decription {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
+.section-biography-wrap {
+    width: 393px;
+    height: 180px;
+
 
 }
 
@@ -540,7 +535,7 @@ body {
     line-height: 62px;
     letter-spacing: 0em;
     text-align: center;
-
+    margin-bottom: 25px;
 }
 
 .section-join-us-decription {
@@ -550,7 +545,11 @@ body {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-
+    color: #a8a7a7;
+    width: 427px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .section-join-us-input {
@@ -560,7 +559,6 @@ body {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .section-join-us-button {
@@ -573,7 +571,51 @@ body {
 
 }
 
+.section-join-us-form {
+    width: 497.66px;
+    height: 64px;
+    border-radius: 15px;
+    border: 1.5px;
+    background-color: #283036;
+    margin: 0 auto;
+    margin-bottom: 240px;
+}
+
+.section-join-us-input {
+    width: 337px;
+    height: 64px;
+    border-radius: 15px 15px 15px 15px;
+    border: 1.5px;
+    background-color: #283036;
+}
+
+.section-join-us-button {
+    width: 130px;
+    height: 48px;
+    border-radius: 8px;
+    color: #FFFFFFE5;
+    background-color: #FF6E30;
+    text-align: center;
+
+}
+
 /* footer */
+.footer {
+    border-top: 0.25px solid rgba(255, 255, 255, 0.15);
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-decription-list {
+    width: 260px;
+    height: 183px;
+    border-radius: 8px;
+    padding: 0;
+}
 
 .footer-decription-list-item-logo {
     font-family: Poppins;
@@ -582,7 +624,20 @@ body {
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 25px;
+    color: #FFFFFF;
+}
 
+.footer-decription-list-item-description {
+    width: 260px;
+    height: 75px;
+    color: #a8a7a7;
+
+}
+
+.footer-decription-list-item-title {
+    padding-bottom: 21px;
+    color: #FFFFFF;
 }
 
 .footer-decription-list-item-title {
@@ -615,6 +670,44 @@ body {
 
 }
 
+.contact-list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 197px;
+    height: 142px;
+
+
+
+}
+
+.categories-list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 112px;
+    height: 108px;
+
+
+
+
+}
+
+.company-list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 144px;
+    height: 142px;
+
+
+}
+.footer-list-decription{
+    color: #a8a7a7;
+}
 /* span */
 span {
     color: #FF6E30;
