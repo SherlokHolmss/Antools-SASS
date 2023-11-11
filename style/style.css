@@ -75,7 +75,8 @@ body {
     color: var(--color-grey);
 }
 
-.header-logo {
+.header-logo{
+
     font-family: Poppins;
     font-size: 22px;
     font-weight: 600;
@@ -98,7 +99,7 @@ body {
 
 /* section-hero */
 .section-hero {
-    margin-top: 104px;
+    padding-top: 104px;
 }
 
 .section-hero-title {
@@ -108,7 +109,7 @@ body {
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .section-hero-input {
@@ -154,7 +155,7 @@ body {
 }
 
 .section-hero-list {
-    margin-top: 110px;
+    padding-top: 110px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -173,7 +174,7 @@ body {
 
 /* popular-list */
 .section-popular-tools {
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 .section-popular-tools-list-item-list-wrap-list-item {
@@ -192,7 +193,7 @@ body {
     flex-direction: column;
     width: 1224px;
     height: 618px;
-
+    
 }
 
 .section-popular-tools-list-item-wrap {
@@ -329,11 +330,10 @@ body {
 }
 
 .brands {
-    width: 1224px;
-    height: 253px;
+
     border-radius: 25px;
     border: 2px;
-    margin-bottom: 200px;
+
     background-color: #2C353D;
 }
 
@@ -352,6 +352,7 @@ body {
     display: flex;
     gap: 107px;
     padding-top: 55px;
+    padding-bottom: 56px;
     justify-content: center;
 
 }
@@ -361,7 +362,7 @@ body {
     width: 1224px;
     height: 638px;
     display: flex;
-
+    padding-top: 200px;
 }
 
 .newcomer-tools-section-title {
@@ -507,13 +508,62 @@ body {
     justify-content: center;
     align-items: center;
     gap: 57px;
-    margin-bottom: 357px;
+    padding-bottom: 357px;
+    padding-top: 200px;
 }
 
 .section-biography-wrap {
     width: 393px;
     height: 180px;
 
+
+}
+
+.section-biography-pre-decription-wrap {
+    width: 265px;
+    height: 91px;
+
+    border-radius: 8px;
+    border: 1px;
+
+}
+
+.section-biography-wrap-title {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.section-biography-pre-decription-wrap {
+    background-image: url(../img/19.png);
+    width: 399px;
+    height: 492px;
+    border: 1px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.section-biography-wrap-decription {
+    width: 265px;
+    height: 91px;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.section-biography-decription-wrap {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFDFD8C;
 
 }
 
@@ -559,16 +609,7 @@ body {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-}
-
-.section-join-us-button {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-
+    padding-left: 24px;
 }
 
 .section-join-us-form {
@@ -596,6 +637,12 @@ body {
     color: #FFFFFFE5;
     background-color: #FF6E30;
     text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
@@ -606,10 +653,12 @@ body {
     padding-bottom: 100px;
 
 }
-.footer-wrap{
+
+.footer-wrap {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-decription-list {
     width: 260px;
     height: 183px;
@@ -705,9 +754,11 @@ body {
 
 
 }
-.footer-list-decription{
+
+.footer-list-decription {
     color: #a8a7a7;
 }
+
 /* span */
 span {
     color: #FF6E30;
