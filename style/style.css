@@ -731,6 +731,6 @@ body{
 }
 
 /* span */
-span {
+.orange-span {
     color: #FF6E30;
 }
