@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-body{
+body {
     font-family: "Poppins";
     background-color: #1E252B;
     color: #FFFFFFC7;
@@ -34,7 +34,6 @@ body{
     text-align: center;
 
 }
-
 .header-button {
     background-color: #FF6E30;
     color: #FFFFFFE5;
@@ -55,15 +54,16 @@ body{
 
 .header-wrap {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 257px;
+
 }
 
 .header-reg-list {
     display: flex;
-    gap: 41px;
-    justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    margin-left:auto;
 }
 
 .header-list {
@@ -71,16 +71,19 @@ body{
     gap: 60px;
     opacity: 0.78px;
     color: var(--color-grey);
+    width: 500px;
+    height: 24px;
+
 }
 
-.header-logo{
-
+.header-logo {
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    margin-right: auto;
 }
 
 .header-list-item {
@@ -90,7 +93,6 @@ body{
     letter-spacing: 0em;
     text-align: left;
 }
-
 /* main */
 
 /* section-hero */
@@ -98,8 +100,7 @@ body{
     padding-top: 104px;
     background-image: url(../img/1.png);
     background-repeat: no-repeat;
-    background-position-x: 1190px;
-    
+    background-position: right;
 }
 
 .section-hero-title {
@@ -190,7 +191,7 @@ body{
     flex-direction: column;
     width: 1224px;
     height: 618px;
-    
+
 }
 
 .section-popular-tools-list-item-wrap {
@@ -320,27 +321,27 @@ body{
 }
 
 
-.brands-wrap{
+.brands-wrap {
     border-radius: 25px;
     border: 2px;
     background-image: url(../img/bgbrands.png);
     background-repeat: no-repeat;
+        padding-top: 55px;
+    padding-bottom: 56px;
 }
+
 .brand-title {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    margin-bottom: 57px;
 }
 
 .brands-list {
     display: flex;
     gap: 107px;
-    padding-top: 55px;
-    padding-bottom: 56px;
     justify-content: center;
 
 }
@@ -349,10 +350,12 @@ body{
 .newcomer-tools-section {
     padding-top: 200px;
 }
-.newcomer-tools-total-wrap{
+
+.newcomer-tools-total-wrap {
     display: flex;
-    
+
 }
+
 .newcomer-tools-section-title {
     font-size: 48px;
     font-weight: 500;
@@ -436,11 +439,6 @@ body{
     width: 100px;
 }
 
-.section-newcomer-tools-list-item-list-wrap {
-    display: flex;
-    padding-top: 30px;
-}
-
 .section-newcomer-tools-list-item-list-wrap-list-item {
     width: 30px;
     height: 30px;
@@ -453,7 +451,7 @@ body{
 }
 
 .newcomer-tools-list-item-title {
-    
+
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
@@ -494,12 +492,14 @@ body{
 
 
 }
-.section-biography-flex-wrap{
+
+.section-biography-flex-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 57px;
 }
+
 .section-biography-pre-decription-wrap {
     width: 265px;
     height: 91px;
