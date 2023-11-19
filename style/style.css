@@ -122,23 +122,26 @@ body {
 }
 
 .section-hero-input {
-    width: 337px;
-    height: 64px;
+    width: 300px;
+    height: 25px;
     border-radius: 15px 15px 15px 15px;
     border: 1.5px;
     background-color: #283036;
-    margin-left: 11px;
 }
-.section-hero-input::before{
+
+.section-hero-find-more::before {
     content: url(../img/search.png);
-    display: inline-block;
+    padding: 0 13px 0 18px;
 }
+
 .section-hero-find-more {
     width: 497.66px;
     height: 64px;
     border-radius: 15px;
     border: 1.5px;
     background-color: #283036;
+    display: flex;
+    align-items: center;
 }
 
 .section-hero-button {
@@ -196,8 +199,8 @@ body {
     margin-bottom: 110px;
     display: flex;
     flex-wrap: wrap;
-    column-gap:18px;
-    row-gap:100px;
+    column-gap: 18px;
+    row-gap: 100px;
 }
 
 .section-popular-tools-list-item-wrap {
@@ -268,6 +271,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
     width: 229px;
+    margin-bottom: 3px;
 }
 
 .popular-tools-list-item-decription {
@@ -296,6 +300,7 @@ body {
 .popular-tools-list-item-decription-price {
     color: #FFA5378C;
     width: 100px;
+
 }
 
 .section-popular-tools-button {
@@ -443,10 +448,12 @@ body {
     color: #FFA5378C;
     width: 100px;
 }
-.section-newcomer-tools-list-item-list-wrap{
+
+.section-newcomer-tools-list-item-list-wrap {
     display: flex;
     padding-top: 30px;
 }
+
 .section-newcomer-tools-list-item-list-wrap-list-item {
     width: 30px;
     height: 30px;
@@ -465,7 +472,7 @@ body {
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
-
+    margin-bottom: 3px;
 }
 
 .newcomer-tools-list-item-decription {
@@ -497,17 +504,54 @@ body {
 .section-biography-wrap {
     width: 393px;
     height: 180px;
-
-
 }
 
-.section-biography-flex-wrap {
+.section-biography-buttons-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 57px;
 }
 
+.section-biography-left-button {
+    background-image: url(../img/left-button.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.section-biography-right-button {
+    background-image: url(../img/right-button.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+}
+.section-biography-check-list{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 101px;
+}
+.section-biography-check-list-item-span {
+    background-image: url(../img/noactivecheck.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 44px;
+    height: 6px;
+    border-radius: 4px;
+}
+.section-biography-check-list-item-active-span{
+    background-image: url(../img/activecheck.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 44px;
+    height: 6px;
+    border-radius: 4px;
+}
 .section-biography-pre-decription-wrap {
     width: 265px;
     height: 91px;
@@ -565,9 +609,10 @@ body {
 }
 
 /* section-join-us */
-.section-join-us{
+.section-join-us {
     padding-bottom: 240px;
 }
+
 .section-join-us-title {
     font-size: 48px;
     font-weight: 500;
