@@ -127,6 +127,7 @@ body {
     border-radius: 15px 15px 15px 15px;
     border: 1.5px;
     background-color: #283036;
+    padding: 30px 0 30px 0;
 }
 
 .section-hero-find-more::before {
@@ -703,7 +704,7 @@ body {
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -716,19 +717,14 @@ body {
     color: #a8a7a7;
 
 }
-
-.footer-decription-list-item-title {
-    padding-bottom: 21px;
-    color: #FFFFFF;
-}
-
 .footer-decription-list-item-title {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-
+    margin-bottom: 21px;
+    color: #FFFFFF;
 }
 
 .footer-list-item-title {
