@@ -30,25 +30,20 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
 
 }
-
+ /* h/s */
 .header-button {
     background-color: #FF6E30;
     color: #FFFFFFE5;
-
     width: 118px;
     height: 48px;
     border-radius: 8px;
-
     text-align: center;
-
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
 
 }
@@ -62,7 +57,7 @@ body {
 .header-reg-list {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     margin-left: auto;
     padding-left: 0;
 }
@@ -70,7 +65,6 @@ body {
 .header-list {
     display: flex;
     gap: 50px;
-    opacity: 0.78px;
     color: var(--color-grey);
 }
 
@@ -78,7 +72,6 @@ body {
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
-    letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
     margin-right: auto;
@@ -87,11 +80,10 @@ body {
     gap: 21px;
 }
 
-.header-list-item {
+.header-list-link{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
@@ -115,7 +107,6 @@ body {
     font-size: 50px;
     font-weight: 500;
     line-height: 70px;
-    letter-spacing: 0em;
     text-align: left;
     margin-bottom: 30px;
     max-width: 600px;
@@ -159,7 +150,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: left;
     margin-bottom: 60px;
     max-width: 467px;
@@ -173,14 +163,6 @@ body {
     padding-left: 0px;
 }
 
-.section-hero-list-item {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
 
 /* popular-list */
 .section-popular-tools {
@@ -190,10 +172,7 @@ body {
 
 .section-popular-tools-list-item-list-wrap-list-item {
     width: 42px;
-    height: 42px;
     border-radius: 8px;
-    height: 42px;
-
 }
 
 .section-popular-tools-list {
@@ -233,7 +212,6 @@ body {
     font-size: 48px;
     font-weight: 500;
     line-height: 62px;
-    letter-spacing: 0em;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -243,7 +221,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: center;
 
 }
@@ -253,7 +230,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: center;
 
 }
@@ -269,7 +245,6 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    letter-spacing: 0em;
     text-align: left;
     width: 229px;
     margin-bottom: 3px;
@@ -279,7 +254,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
+
     text-align: left;
     padding-bottom: 30px;
 }
@@ -288,7 +263,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0em;
+
     text-align: center;
     background-color: #1E252B;
     color: #FFFFFF8C;
@@ -308,7 +283,6 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: center;
     background-color: #1E252B;
     color: #FF6E30;
@@ -346,7 +320,6 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    letter-spacing: 0em;
     text-align: left;
     margin-bottom: 57px;
 }
@@ -372,7 +345,6 @@ body {
     font-size: 48px;
     font-weight: 500;
     line-height: 62px;
-    letter-spacing: 0em;
     text-align: left;
     margin-bottom: 30px;
 }
@@ -381,7 +353,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: left;
     color: #a8a7a7;
     margin-bottom: 30px;
@@ -399,7 +370,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    letter-spacing: 0em;
     text-align: center;
     width: 198px;
     height: 58px;
@@ -428,7 +398,6 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
     background-color: #1E252B;
     color: #FFFFFF8C;
@@ -471,7 +440,6 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    letter-spacing: 0em;
     text-align: left;
     margin-bottom: 3px;
 }
@@ -481,7 +449,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0em;
     text-align: left;
 
 }
@@ -490,7 +457,6 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
 
 }
@@ -593,7 +559,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     color: #FFFDFD8C;
 
@@ -618,7 +583,6 @@ body {
     font-size: 48px;
     font-weight: 500;
     line-height: 62px;
-    letter-spacing: 0em;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -627,7 +591,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: center;
     color: #a8a7a7;
     width: 427px;
@@ -640,7 +603,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
     text-align: left;
     padding-left: 24px;
 }
@@ -673,7 +635,6 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
     margin-left: 11px;
 }
@@ -702,7 +663,6 @@ body {
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
-    letter-spacing: 0em;
     text-align: left;
     margin-bottom: 25px;
     color: #FFFFFF;
@@ -721,7 +681,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
+
     text-align: left;
     margin-bottom: 21px;
     color: #FFFFFF;
@@ -731,7 +691,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0em;
+
     text-align: left;
 
 }
@@ -740,7 +700,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
 
 }
