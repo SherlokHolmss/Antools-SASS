@@ -29,11 +29,12 @@ body {
     background-color: #1E252B;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
 
 }
- /* h/s */
+
+/* h/s */
 .header-button {
     background-color: #FF6E30;
     color: #FFFFFFE5;
@@ -43,7 +44,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
 
 }
@@ -53,7 +54,6 @@ body {
     align-items: center;
 
 }
-
 .header-reg-list {
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ body {
 .header-logo {
     font-size: 22px;
     font-weight: 600;
-    line-height: 33px;
+    line-height: 1.5;
     text-align: left;
     color: #FFFFFF;
     margin-right: auto;
@@ -80,11 +80,12 @@ body {
     gap: 21px;
 }
 
-.header-list-link{
+.header-list-link {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: left;
+    color: #FFFFFF8C;
 }
 
 .header-logo-image {
@@ -106,7 +107,7 @@ body {
 .section-hero-title {
     font-size: 50px;
     font-weight: 500;
-    line-height: 70px;
+    line-height: 1.4;
     text-align: left;
     margin-bottom: 30px;
     max-width: 600px;
@@ -149,10 +150,11 @@ body {
 .section-hero-description {
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.5;
     text-align: left;
     margin-bottom: 60px;
     max-width: 467px;
+    color: #FFFFFF8C;
 }
 
 .section-hero-list {
@@ -179,7 +181,7 @@ body {
     margin-bottom: 110px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 18px;
+    column-gap: 23px;
     row-gap: 100px;
 }
 
@@ -187,7 +189,7 @@ body {
     width: 170px;
     display: flex;
     gap: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .section-popular-tools-list-item-list-wrap {
@@ -201,17 +203,10 @@ body {
     justify-content: center;
 }
 
-.section-popular-tools-wrap {
-    width: 455px;
-    height: 147px;
-    margin: 0 auto;
-    margin-bottom: 90px;
-}
-
 .section-popular-tools-title {
     font-size: 48px;
     font-weight: 500;
-    line-height: 62px;
+    line-height: 1.2;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -220,31 +215,23 @@ body {
 .section-popular-tools-description {
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.6;
     text-align: center;
-
-}
-
-
-.section-popular-tools-description {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-
+    width: 427px;
+    margin: 0 auto;
+    margin-bottom: 90px;
 }
 
 .section-popular-tools-list-item {
     width: 392px;
-    height: 294px;
+    padding: 33px;
     border-radius: 15px;
-
 }
 
 .popular-tools-list-item-title {
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 1.5;
     text-align: left;
     width: 229px;
     margin-bottom: 3px;
@@ -253,16 +240,16 @@ body {
 .popular-tools-list-item-decription {
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
-
+    line-height: 1.8;
+    color: #FFFFFF8C;
     text-align: left;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .section-popular-tools-list-button {
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5;
 
     text-align: center;
     background-color: #1E252B;
@@ -282,7 +269,7 @@ body {
 .section-popular-tools-button {
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.5;
     text-align: center;
     background-color: #1E252B;
     color: #FF6E30;
@@ -298,28 +285,26 @@ body {
 
 
 /* brands */
-.brand-title {
-    width: 367px;
-    height: 36px;
-    display: block;
-    margin: 0 auto;
-
-}
-
-
-.brands-wrap {
-    border-radius: 25px;
-    border: 2px;
+.brands{
+    padding: 58px 0 56px 0;
     background-image: url(../img/bgbrands.png);
     background-repeat: no-repeat;
-    padding-top: 55px;
-    padding-bottom: 56px;
+    background-position: center;
+}
+.brand-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
 }
 
 .brand-title {
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 1.5;
     text-align: left;
     margin-bottom: 57px;
 }
@@ -338,13 +323,13 @@ body {
 
 .newcomer-tools-total-wrap {
     display: flex;
-
+    justify-content: space-between;
 }
 
 .newcomer-tools-section-title {
     font-size: 48px;
     font-weight: 500;
-    line-height: 62px;
+    line-height: 1.2;
     text-align: left;
     margin-bottom: 30px;
 }
@@ -352,9 +337,9 @@ body {
 .newcomer-tools-section-decription {
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.6;
     text-align: left;
-    color: #a8a7a7;
+    color: #FFFFFF8C;
     margin-bottom: 30px;
 }
 
@@ -369,7 +354,7 @@ body {
 .newcomer-tools-section-button {
     font-size: 18px;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 1.5;
     text-align: center;
     width: 198px;
     height: 58px;
@@ -397,7 +382,7 @@ body {
 .section-newcomer-tools-list-button {
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
     background-color: #1E252B;
     color: #FFFFFF8C;
@@ -411,7 +396,7 @@ body {
     width: 170px;
     display: flex;
     gap: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .newcomer-tools-list-item-decription-price {
@@ -421,7 +406,7 @@ body {
 
 .section-newcomer-tools-list-item-list-wrap {
     display: flex;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .section-newcomer-tools-list-item-list-wrap-list-item {
@@ -439,16 +424,17 @@ body {
 
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 1.5;
     text-align: left;
     margin-bottom: 3px;
 }
 
 .newcomer-tools-list-item-decription {
+    color: #FFFFFF8C;
 
     font-size: 18px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.8;
     text-align: left;
 
 }
@@ -456,7 +442,7 @@ body {
 .newcomer-tools-item-button {
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: left;
 
 }
@@ -497,12 +483,14 @@ body {
     height: 100px;
     border-radius: 15px;
 }
-.section-biography-check-list{
+
+.section-biography-check-list {
     display: flex;
     justify-content: center;
     gap: 18px;
     margin-top: 101px;
 }
+
 .section-biography-check-list-item-span {
     background-image: url(../img/noactivecheck.png);
     background-repeat: no-repeat;
@@ -511,7 +499,8 @@ body {
     height: 6px;
     border-radius: 4px;
 }
-.section-biography-check-list-item-active-span{
+
+.section-biography-check-list-item-active-span {
     background-image: url(../img/activecheck.png);
     background-repeat: no-repeat;
     display: inline-block;
@@ -519,6 +508,7 @@ body {
     height: 6px;
     border-radius: 4px;
 }
+
 .section-biography-pre-decription-wrap {
     width: 265px;
     height: 91px;
@@ -529,7 +519,7 @@ body {
 .section-biography-wrap-title {
     font-size: 26px;
     font-weight: 500;
-    line-height: 39px;
+    line-height: 2.4;
     letter-spacing: 0.015em;
     text-align: left;
     margin-bottom: 2px;
@@ -558,7 +548,7 @@ body {
 .section-biography-decription-wrap {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: left;
     color: #FFFDFD8C;
 
@@ -568,7 +558,7 @@ body {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 2.1;
     letter-spacing: 0.015em;
     text-align: left;
     color: #FFFDFD8C;
@@ -582,7 +572,7 @@ body {
 .section-join-us-title {
     font-size: 48px;
     font-weight: 500;
-    line-height: 62px;
+    line-height: 1.2;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -590,9 +580,9 @@ body {
 .section-join-us-decription {
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.6;
     text-align: center;
-    color: #a8a7a7;
+    color: #FFFFFF8C;
     width: 427px;
     height: 60px;
     margin: 0 auto;
@@ -602,7 +592,7 @@ body {
 .section-join-us-input {
     font-size: 14px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.5;
     text-align: left;
     padding-left: 24px;
 }
@@ -634,7 +624,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
     margin-left: 11px;
 }
@@ -662,7 +652,7 @@ body {
 .footer-decription-list-item-logo {
     font-size: 22px;
     font-weight: 600;
-    line-height: 33px;
+    line-height: 1.5;
     text-align: left;
     margin-bottom: 25px;
     color: #FFFFFF;
@@ -677,10 +667,11 @@ body {
     color: #a8a7a7;
 
 }
+
 .footer-decription-list-item-title {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
 
     text-align: left;
     margin-bottom: 21px;
@@ -690,7 +681,7 @@ body {
 .footer-list-item-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.5;
 
     text-align: left;
 
@@ -699,9 +690,9 @@ body {
 .footer-list-decription {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: left;
-
+    color: #a8a7a7;
 }
 
 .contact-list {
@@ -740,9 +731,6 @@ body {
 
 }
 
-.footer-list-decription {
-    color: #a8a7a7;
-}
 
 /* span */
 .orange-span {
