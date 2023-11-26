@@ -196,12 +196,6 @@ body {
     display: flex;
 }
 
-.section-popular-tools-list-item-list-wrap-list {
-    display: flex;
-    gap: 30px;
-    padding: 0;
-    justify-content: center;
-}
 
 .section-popular-tools-title {
     font-size: 48px;
@@ -369,7 +363,6 @@ body {
     height: 638px;
     display: flex;
     gap: 24px;
-    padding: 0;
     flex-wrap: wrap;
 
 }
@@ -646,7 +639,6 @@ body {
     width: 260px;
     height: 183px;
     border-radius: 8px;
-    padding: 0;
 }
 
 .footer-decription-list-item-logo {
