@@ -59,7 +59,6 @@ body {
     align-items: center;
     gap: 40px;
     margin-left: auto;
-    padding-left: 0;
 }
 
 .header-list {
@@ -162,7 +161,6 @@ body {
     display: flex;
     gap: 20px;
     align-items: center;
-    padding-left: 0px;
 }
 
 
@@ -181,7 +179,6 @@ body {
     gap: 12px;
 }
 .section-popular-tools-list {
-    margin-bottom: 110px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 23px;
@@ -402,7 +399,6 @@ body {
 }
 
 .section-newcomer-tools-list-item-list-wrap-list {
-    padding-left: 0;
     display: flex;
     gap: 18px;
 }
@@ -680,7 +676,6 @@ body {
 }
 
 .contact-list {
-    padding-left: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -692,7 +687,6 @@ body {
 }
 
 .categories-list {
-    padding-left: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -705,7 +699,6 @@ body {
 }
 
 .company-list {
-    padding-left: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
