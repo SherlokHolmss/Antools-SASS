@@ -176,7 +176,9 @@ body {
     width: 42px;
     border-radius: 8px;
 }
-
+.section-popular-tools-list-item-list-wrap-list{
+    display: flex;
+}
 .section-popular-tools-list {
     margin-bottom: 110px;
     display: flex;
@@ -194,6 +196,7 @@ body {
 
 .section-popular-tools-list-item-list-wrap {
     display: flex;
+
 }
 
 
@@ -214,6 +217,7 @@ body {
     width: 427px;
     margin: 0 auto;
     margin-bottom: 90px;
+    color: #FFFFFF8C;
 }
 
 .section-popular-tools-list-item {
