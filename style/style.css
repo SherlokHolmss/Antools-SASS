@@ -178,6 +178,7 @@ body {
 }
 .section-popular-tools-list-item-list-wrap-list{
     display: flex;
+    gap: 12px;
 }
 .section-popular-tools-list {
     margin-bottom: 110px;
@@ -248,14 +249,13 @@ body {
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
-
     text-align: center;
     background-color: #1E252B;
     color: #FFFFFF8C;
     width: 106px;
     height: 42px;
     border-radius: 8px;
-    margin-left: 124px;
+    margin-left: auto;
 }
 
 .popular-tools-list-item-decription-price {
