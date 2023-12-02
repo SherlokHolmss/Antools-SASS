@@ -332,7 +332,6 @@ body {
 .newcomer-tools-section-wrap {
     width: 427px;
     height: 300px;
-    border-radius: 8px;
 }
 
 
@@ -645,8 +644,7 @@ body {
 .footer-decription-list-item-description {
     width: 260px;
     height: 75px;
-    color: #a8a7a7;
-
+    color: #FFFFFF8C;
 }
 
 .footer-decription-list-item-title {
@@ -672,7 +670,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     text-align: left;
-    color: #a8a7a7;
+    color: #FFFFFF8C;
 }
 
 .contact-list {
@@ -681,9 +679,6 @@ body {
     gap: 10px;
     width: 197px;
     height: 142px;
-
-
-
 }
 
 .categories-list {
@@ -692,10 +687,6 @@ body {
     gap: 10px;
     width: 112px;
     height: 108px;
-
-
-
-
 }
 
 .company-list {
@@ -704,10 +695,7 @@ body {
     gap: 10px;
     width: 144px;
     height: 142px;
-
-
 }
-
 
 /* span */
 .orange-span {
