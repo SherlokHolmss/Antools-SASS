@@ -1,0 +1,57 @@
+.section-hero {
+    padding-top: 104px;
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    &-title {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 30px;
+        max-width: 600px;
+    }
+    &-input {
+        width: 300px;
+        height: 25px;
+        border-radius: 15px 15px 15px 15px;
+        border: 1.5px;
+        background-color: #283036;
+        padding: 30px 0 30px 0;
+    }
+    &-button {
+        width: 130px;
+        height: 48px;
+        border-radius: 8px;
+        color: #FFFFFFE5;
+        background-color: #FF6E30;
+    }
+    &-list {
+        margin-top: 110px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    &-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        margin-bottom: 60px;
+        max-width: 467px;
+        color: #FFFFFF8C;
+    }
+    &-find-more {
+        width: 497.66px;
+        height: 64px;
+        border-radius: 15px;
+        border: 1.5px;
+        background-color: #283036;
+        display: flex;
+        align-items: center;
+        &::before {
+            content: url(../img/search.png);
+            padding: 0 13px 0 18px;
+        }
+    }
+}

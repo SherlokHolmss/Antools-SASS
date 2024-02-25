@@ -1,0 +1,18 @@
+.brands{
+    padding: 58px 0 56px 0;
+    background-image: url(../img/bgbrands.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.brands-list {
+    display: flex;
+    gap: 107px;
+    justify-content: center;
+}

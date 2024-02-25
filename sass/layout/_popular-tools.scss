@@ -1,0 +1,117 @@
+.section-popular-tools {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 23px;
+        row-gap: 100px;
+
+        &-item {
+            width: 392px;
+            padding: 33px;
+            border-radius: 15px;
+
+            &-wrap {
+                width: 170px;
+                display: flex;
+                gap: 30px;
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+    &-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    &-description {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.6;
+        text-align: center;
+        width: 427px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        color: #FFFFFF8C;
+    }
+
+    &-button {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        text-align: center;
+        background-color: #1E252B;
+        color: #FF6E30;
+        width: 184px;
+        height: 64px;
+        border-radius: 8px;
+        border: 1px solid #283036;
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+}
+
+
+
+.section-popular-tools-list-item-list-wrap {
+    display: flex;
+
+    &-list {
+        display: flex;
+        gap: 12px;
+
+        &-item {
+            width: 42px;
+            border-radius: 8px;
+        }
+    }
+}
+
+.popular-tools-list-item-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    width: 229px;
+    margin-bottom: 3px;
+}
+
+.popular-tools-list-item-decription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #FFFFFF8C;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.section-popular-tools-list-button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #1E252B;
+    color: #FFFFFF8C;
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    margin-left: auto;
+
+    &:hover {
+        background-color: #FF6E30;
+    }
+}
+
+.popular-tools-list-item-decription-price {
+    color: #FFA5378C;
+    width: 100px;
+
+}
