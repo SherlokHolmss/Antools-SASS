@@ -1,0 +1,125 @@
+.newcomer-tools-section {
+    padding-top: 200px;
+}
+
+.newcomer-tools-total-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcomer-tools-section-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.newcomer-tools-section-decription {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: left;
+    color: #FFFFFF8C;
+    margin-bottom: 30px;
+}
+
+.newcomer-tools-section-wrap {
+    width: 427px;
+    height: 300px;
+}
+
+.newcomer-tools-section-button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    width: 198px;
+    height: 58px;
+    background-color: #FF6E30;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.newcomer-tools-list {
+    margin-left: 194px;
+    width: 600px;
+    height: 638px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.newcomer-tools-list-item {
+    width: 288px;
+    height: 284px;
+}
+
+.section-newcomer-tools-list-button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #1E252B;
+    color: #FFFFFF8C;
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    margin-left: 124px;
+}
+.section-newcomer-tools-list-button:hover{
+    background-color: #FF6E30;
+}
+.section-newcomer-tools-list-item-wrap {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.newcomer-tools-list-item-decription-price {
+    color: #FFA5378C;
+    width: 100px;
+}
+
+.section-newcomer-tools-list-item-list-wrap {
+    display: flex;
+    margin-top: 30px;
+}
+
+.section-newcomer-tools-list-item-list-wrap-list-item {
+    width: 30px;
+    height: 30px;
+}
+
+.section-newcomer-tools-list-item-list-wrap-list {
+    display: flex;
+    gap: 18px;
+}
+
+.newcomer-tools-list-item-title {
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.newcomer-tools-list-item-decription {
+    color: #FFFFFF8C;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: left;
+
+}
+
+.newcomer-tools-item-button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+
+}
